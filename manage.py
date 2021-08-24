@@ -1,4 +1,4 @@
-#!/usr/bin/env python #holis
+#!/usr/bin/env python #que onda
 """Django's command-line utility for administrative tasks."""
 import os
 import sys
