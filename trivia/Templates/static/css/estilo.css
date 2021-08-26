@@ -4,7 +4,7 @@ html body{
 }
 
 body{
-    background: url("../images/algodon2.jpg");
+    background: url("../images/fondo2.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -17,7 +17,7 @@ img{
 
 body header{
     margin: 5px;
-    background-color:black;
+    background-color:red;
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
     font-style: italic;
@@ -94,6 +94,19 @@ nav li a{
     color: white;
     text-align: left;
 }
+div.form
+{
+    display: block;
+    text-align: center;
+}
+form
+{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
 
 .nav_footer{
     display: flex;

@@ -1,0 +1,141 @@
+html body{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: url("../images/fondo2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100%;
+}
+
+img{
+    width: 100%;
+}
+
+body header{
+    margin: 5px;
+    background-color: teal;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 50px;
+}
+
+body header p{
+    margin: 0%;
+    color: mintcream;
+}
+
+.navegador{
+    margin: auto;
+}
+
+.nav_principal{
+    display: flex;
+    justify-content: center;
+}
+
+.nav_principal ul{
+    background-color:black;
+    height: 60px;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    border-radius: 15px;
+    
+}
+
+.nav_principal ul li{
+    margin-left: 150px;
+    margin-right: 150px;
+    list-style: none;
+    font-size: 20px;
+}
+
+nav li a{
+    color: white;
+    text-decoration: none;
+
+}
+
+
+
+.registro{
+    background: none;
+    background-color:chocolate;
+    opacity: 1;
+    text-align: center;
+    border-radius: 10px;
+    padding: 20px;
+    height: 300px;
+    margin: auto;
+    width: 200px;
+}
+
+.registro p{
+    color: white;
+    text-align: center;
+}
+
+.registro label{
+    color: white;
+    text-align: right;
+}
+
+.registro input{
+    margin: 10px;
+}
+
+.registro a{
+    text-decoration: none;
+    color: white;
+    text-align: left;
+}
+div.form
+{
+    display: block;
+    text-align: center;
+}
+form
+{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+
+.nav_footer{
+    display: flex;
+    justify-content: center;
+}
+
+.nav_footer ul{
+    background-color: black;
+    position: fixed;
+    bottom: 0;
+    margin-bottom: 0; /*Lineas para poner el footer abajo*/
+    display: flex; /*Poner los elementos de la lista en horizontal*/
+    height: 80px;
+    align-items: center; /*Poner los elementos en el medio del contenedor*/
+    padding: 0%; /*Espacio hacia dentro del contenedor*/
+    border-radius: 30px 30px 0 0;
+}
+
+.nav_footer li{
+    margin: 50px;
+}
+
+.nav_footer a{
+    font-size: 20px;
+    display: inline-block;
+}
+
+
+
+.holis h1{
+    color: seashell;
+}
