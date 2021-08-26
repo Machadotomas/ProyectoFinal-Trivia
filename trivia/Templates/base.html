@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{% block title %}Inicio{% endblock %}</title>
-    <link rel="stylesheet" href="{% static 'css/estilo.css'%}">
+    <title>{% block title %}Inicio 1234{% endblock %}</title>
+    <link rel="stylesheet" href="{% static 'css/style.css'%}">
 </head>
 <body>
     <header>
@@ -15,9 +15,9 @@
     <div class="navegador">
         <nav class="nav_principal">
             <ul>
-                <li><a href="/base">Inicio</a></li>
+                <li><a href="">Inicio</a></li>
                 <li><a href="/comojugar">¿Como juego?</a></li>
-                <li><a href="/ingreso">Ingresar</a></li>
+                <li><a href="/login">Ingresar</a></li>
                 <li><a href="#">Nosotros</a></li>
             </ul>
         </nav>
@@ -26,15 +26,8 @@
     {% block body %}
     {% endblock %}
 
-    <footer>
-        <nav class="nav_footer">
-            <ul>
-                <li><a href="">Relleno 1</a></li>
-                <li><a href="">Relleno 2</a></li>
-            </ul>
-        </nav>
-    </footer>
-
+    
     
 </body>
+
 </html>

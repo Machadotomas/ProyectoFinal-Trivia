@@ -17,11 +17,16 @@ from django.contrib import admin
 from django.urls import path
 from trivia.views import base, ingreso, comojugar, registro
 from user.views import ingreso
+from . import views
+from django.contrib.auth.views import LoginView, LogoutView
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path("base/", base),
+    path("", views.base, name='base'),
     path("ingreso/", ingreso),
     path("comojugar/", comojugar),
     path("registro/", registro),
+    path('register/', views.register, name='register' ),
+    path('login', LoginView.as_view(template_name='login.html'), name='login'),
+    path('logout', LogoutView.as_view(template_name='logout.html'), name='logout'),
 ]

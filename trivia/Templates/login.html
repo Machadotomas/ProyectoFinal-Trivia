@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% block title %} Registro {% endblock %}
+
+
+
+{% block body %}
+<div class="form">
+    <form name="Form1" method="post">
+        {% csrf_token %}
+        {{form.as_p}}
+        
+        <button type="submit" id="submit">Login</button>
+    
+    </form>
+    <br>
+    <a href="/register">¿No tiene una cuenta?</a>
+    <br>
+    <a href="#">¿Olvidó su cuenta y/o contraseña?</a>
+</div>
+        
+{% endblock %}
